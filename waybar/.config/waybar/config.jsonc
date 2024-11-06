@@ -13,11 +13,12 @@
     "on-click": "wofi"
   },
   "network": {
-    "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
-    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+    "interface": "eno1",
+    "format": "{ifname}",
+    "format-wifi": "<span size='13000' foreground='#f5e0dc'> </span>{essid} ({signalStrength}%)",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰊗 </span>{ipaddr}/{cidr}",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'> </span>Disconnected",
+    "max-length": 50
   },
   "bluetooth": {
     "format": "<span color='#b4befe'></span> {status}",
@@ -32,7 +33,7 @@
       "format-icons": {
           "default": ["", "", " "]
       },
-      "on-click": "helvum"
+      "on-click": "hyprctl dispatch exec [floating] pavucontrol"
   },
   "tray": {
     "icon-size": 21,
@@ -57,7 +58,7 @@
     "path": "/home"
   },
   "custom/hyprpicker": {
-    "format": "󰈋",
+    "format": "󰈋 ",
     "on-click": "hyprpicker -a -f hex",
     "on-click-right": "hyprpicker -a -f rgb"
   }

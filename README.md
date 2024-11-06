@@ -4,7 +4,7 @@
 - Some tips & tricks
 
 ## Base
-base-devel kitty hyprland hyprlock hyprpaper hyprpicker grimblast pipewire wofi waybar rose-pine-cursor rose-pine-hyprcursor catppuccin-gtk-theme-mocha starship stow 
+base-devel kitty hyprland hyprlock hyprpaper hyprpicker grimblast pipewire wofi waybar rose-pine-cursor rose-pine-hyprcursor catppuccin-gtk-theme-mocha colloid-catppuccin-theme-git starship stow 
 
 ## Other
 
@@ -19,6 +19,7 @@ blueman
 helvum
 lazygit
 lazydocker
+nemo
 
 ### Media
 webcord
@@ -29,6 +30,7 @@ bluez
 bluez-utils
 polkit-gnome
 pipewire 
+pavucontrol
 networkmanager 
 ttf-meslo-nerd
 
