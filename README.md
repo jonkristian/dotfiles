@@ -20,6 +20,8 @@ helvum
 lazygit
 lazydocker
 nemo
+cliphist
+wl-clipboard
 
 ### Media
 webcord
