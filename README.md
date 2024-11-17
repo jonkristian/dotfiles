@@ -22,6 +22,7 @@ lazydocker
 nemo
 cliphist
 wl-clipboard
+nerd-fonts
 
 ### Media
 webcord
