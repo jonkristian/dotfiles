@@ -7,4 +7,4 @@ eval "$(starship init zsh)"
 fpath=(${ASDF_DIR}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
-
+source /usr/share/nvm/init-nvm.sh

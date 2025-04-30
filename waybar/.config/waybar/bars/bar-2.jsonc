@@ -1,0 +1,32 @@
+{
+  "modules-left": ["hyprland/window"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": [
+    "clock"
+  ],
+  "custom/arch": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "wofi"
+  },
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 100,
+    "rewrite": {
+      "": "Such empty"
+    },
+    "separate-outputs": true
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "active": " "
+    },
+    "sort-by-number": true
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  }
+}
