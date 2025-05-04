@@ -71,7 +71,7 @@
     "format-icons": ["", "", ""]
   },
   "network": {
-    "interface": "eno1",
+    "interface": "enp4s0",
     "format": "{ifname}",
     "format-wifi": "<span size='13000' foreground='#f5e0dc'> </span>{essid} ({signalStrength}%)",
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰊗 </span>{ipaddr}/{cidr}",
